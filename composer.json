@@ -1,0 +1,36 @@
+{
+  "name": "flipboxfactory/craft-session-redis",
+  "description": "Craft session component",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "sessions"
+  ],
+  "license": "MIT",
+  "authors": [{
+    "name": "Flipbox Factory",
+    "email": "hello@flipboxfactory.com"
+  }],
+  "support": {
+    "email": "support@flipboxfactory.com",
+    "issues": "https://github.com/flipboxfactory/craft-sessions/issues?state=open",
+    "source": "https://github.com/flipboxfactory/craft-sessions",
+    "docs": "https://github.com/flipboxfactory/craft-sessions",
+    "rss": "https://github.com/flipboxfactory/craft-sessions/commits/master.atom"
+  },
+  "require": {
+    "craftcms/cms": "^3.0.0",
+    "yiisoft/yii2-redis": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0",
+    "squizlabs/php_codesniffer": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "flipbox\\craft\\session\\": "src/"
+    }
+  }
+}
