@@ -1,7 +1,6 @@
 # Redis session component for Craft CMS
 [![Latest Version](https://img.shields.io/github/release/flipboxfactory/craft-session-redis.svg?style=flat-square)](https://github.com/flipboxfactory/craft-session-redis/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/flipboxfactory/craft-session-redis/master.svg?style=flat-square)](https://travis-ci.org/flipboxfactory/craft-session-redis)
 [![Quality Score](https://img.shields.io/scrutinizer/g/flipboxfactory/craft-session-redis.svg?style=flat-square)](https://scrutinizer-ci.com/g/flipboxfactory/craft-session-redis)
 [![Total Downloads](https://img.shields.io/packagist/dt/flipboxfactory/craft-session-redis.svg?style=flat-square)](https://packagist.org/packages/flipboxfactory/craft-session-redis)
 
