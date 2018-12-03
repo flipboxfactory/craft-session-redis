@@ -1,7 +1,7 @@
 
 
 ## IMPORANT NOTICE
-We recommend using the configuration below rather than the contents of this package.
+We recommend using the configuration (via `config/app.php` file) below rather than the contents of this package.
 ```
 <?php
 
