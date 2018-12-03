@@ -1,3 +1,23 @@
+
+
+## IMPORANT NOTICE
+We recommend using the configuration below rather than the contents of this package.
+```
+<?php
+
+return [
+    'components' => [
+        'session' => [
+            'class' => \yii\redis\Session::class,
+            'as session' => [
+                'class' => \craft\behaviors\SessionBehavior::class,
+            ]
+        ]
+    ]
+];
+
+```
+
 # Redis session component for Craft CMS
 [![Latest Version](https://img.shields.io/github/release/flipboxfactory/craft-session-redis.svg?style=flat-square)](https://github.com/flipboxfactory/craft-session-redis/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
